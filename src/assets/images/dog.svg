@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 250" width="300" height="250">
+  <!-- Placard/Sign board -->
+  <rect x="60" y="40" width="180" height="80" rx="5" fill="#ffffff" stroke="#333333" stroke-width="3" />
+
+  <!-- Placard pole left -->
+  <rect x="85" y="120" width="5" height="50" fill="#8b6f47" />
+
+  <!-- Placard pole right -->
+  <rect x="210" y="120" width="5" height="50" fill="#8b6f47" />
+
+  <!-- Placard shadow -->
+  <rect x="62" y="42" width="180" height="80" rx="5" fill="#000000" opacity="0.1" />
+
+
+  <!-- Dog body -->
+  <ellipse cx="150" cy="180" rx="55" ry="50" fill="#d4a574" />
+
+  <!-- Dog chest (lighter color) -->
+  <ellipse cx="150" cy="185" rx="35" ry="35" fill="#f5deb3" />
+
+  <!-- Back left leg -->
+  <rect x="110" y="210" width="14" height="35" rx="7" fill="#d4a574" />
+  <ellipse cx="117" cy="243" rx="9" ry="5" fill="#2c3e50" />
+
+  <!-- Back right leg -->
+  <rect x="176" y="210" width="14" height="35" rx="7" fill="#d4a574" />
+  <ellipse cx="183" cy="243" rx="9" ry="5" fill="#2c3e50" />
+
+  <!-- Dog head -->
+  <ellipse cx="150" cy="125" rx="45" ry="40" fill="#d4a574" />
+
+  <!-- Dog snout -->
+  <ellipse cx="150" cy="140" rx="30" ry="25" fill="#f5deb3" />
+
+  <!-- Left ear (floppy) -->
+  <ellipse cx="120" cy="110" rx="18" ry="35" fill="#c49563" transform="rotate(-30 120 110)" />
+
+  <!-- Right ear (floppy) -->
+  <ellipse cx="180" cy="110" rx="18" ry="35" fill="#c49563" transform="rotate(30 180 110)" />
+
+  <!-- Left eye -->
+  <ellipse cx="135" cy="120" rx="7" ry="10" fill="#2c3e50" />
+  <ellipse cx="137" cy="118" rx="3" ry="4" fill="#ffffff" />
+
+  <!-- Right eye -->
+  <ellipse cx="165" cy="120" rx="7" ry="10" fill="#2c3e50" />
+  <ellipse cx="167" cy="118" rx="3" ry="4" fill="#ffffff" />
+
+  <!-- Nose -->
+  <ellipse cx="150" cy="138" rx="8" ry="6" fill="#2c3e50" />
+
+  <!-- Mouth -->
+  <path d="M 150 140 Q 140 148 135 143" stroke="#2c3e50" stroke-width="2.5" fill="none" stroke-linecap="round" />
+  <path d="M 150 140 Q 160 148 165 143" stroke="#2c3e50" stroke-width="2.5" fill="none" stroke-linecap="round" />
+
+  <!-- Tongue -->
+  <ellipse cx="150" cy="150" rx="8" ry="6" fill="#ff6b9d" />
+
+  <!-- Front left leg holding placard -->
+  <rect x="85" y="120" width="15" height="90" rx="7" fill="#d4a574" />
+  <ellipse cx="92.5" cy="208" rx="10" ry="6" fill="#2c3e50" />
+
+  <!-- Front right leg holding placard -->
+  <rect x="200" y="120" width="15" height="90" rx="7" fill="#d4a574" />
+  <ellipse cx="207.5" cy="208" rx="10" ry="6" fill="#2c3e50" />
+
+  <!-- Tail (curved) -->
+  <path d="M 195 175 Q 230 165 235 145 Q 238 135 235 125" stroke="#d4a574" stroke-width="12" fill="none" stroke-linecap="round" />
+
+  <!-- Tail tip -->
+  <circle cx="235" cy="125" r="8" fill="#c49563" />
+
+  <!-- Spots on body -->
+  <ellipse cx="125" cy="175" rx="12" ry="10" fill="#c49563" opacity="0.6" />
+  <ellipse cx="175" cy="185" rx="15" ry="12" fill="#c49563" opacity="0.6" />
+  <ellipse cx="145" cy="195" rx="10" ry="8" fill="#c49563" opacity="0.6" />
+</svg>

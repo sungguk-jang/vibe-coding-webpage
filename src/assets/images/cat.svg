@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Cat body -->
+  <ellipse cx="100" cy="120" rx="50" ry="60" fill="#ff9a56" />
+
+  <!-- Cat head -->
+  <circle cx="100" cy="70" r="40" fill="#ff9a56" />
+
+  <!-- Left ear -->
+  <path d="M 70 50 L 60 20 L 80 40 Z" fill="#ff9a56" />
+
+  <!-- Right ear -->
+  <path d="M 130 50 L 140 20 L 120 40 Z" fill="#ff9a56" />
+
+  <!-- Inner left ear -->
+  <path d="M 72 48 L 66 28 L 78 42 Z" fill="#ffb380" />
+
+  <!-- Inner right ear -->
+  <path d="M 128 48 L 134 28 L 122 42 Z" fill="#ffb380" />
+
+  <!-- Left eye -->
+  <ellipse cx="85" cy="65" rx="8" ry="12" fill="#2c3e50" />
+  <ellipse cx="87" cy="63" rx="3" ry="5" fill="#ffffff" />
+
+  <!-- Right eye -->
+  <ellipse cx="115" cy="65" rx="8" ry="12" fill="#2c3e50" />
+  <ellipse cx="117" cy="63" rx="3" ry="5" fill="#ffffff" />
+
+  <!-- Nose -->
+  <path d="M 100 80 L 95 85 L 105 85 Z" fill="#e74c3c" />
+
+  <!-- Mouth -->
+  <path d="M 100 85 Q 90 90 85 85" stroke="#2c3e50" stroke-width="2" fill="none" />
+  <path d="M 100 85 Q 110 90 115 85" stroke="#2c3e50" stroke-width="2" fill="none" />
+
+  <!-- Whiskers left -->
+  <line x1="60" y1="70" x2="30" y2="65" stroke="#2c3e50" stroke-width="2" />
+  <line x1="60" y1="75" x2="30" y2="75" stroke="#2c3e50" stroke-width="2" />
+  <line x1="60" y1="80" x2="30" y2="85" stroke="#2c3e50" stroke-width="2" />
+
+  <!-- Whiskers right -->
+  <line x1="140" y1="70" x2="170" y2="65" stroke="#2c3e50" stroke-width="2" />
+  <line x1="140" y1="75" x2="170" y2="75" stroke="#2c3e50" stroke-width="2" />
+  <line x1="140" y1="80" x2="170" y2="85" stroke="#2c3e50" stroke-width="2" />
+
+  <!-- Front legs -->
+  <rect x="80" y="160" width="12" height="35" rx="6" fill="#ff9a56" />
+  <rect x="108" y="160" width="12" height="35" rx="6" fill="#ff9a56" />
+
+  <!-- Paws -->
+  <ellipse cx="86" cy="193" rx="8" ry="5" fill="#ffb380" />
+  <ellipse cx="114" cy="193" rx="8" ry="5" fill="#ffb380" />
+
+  <!-- Tail -->
+  <path d="M 145 120 Q 180 100 185 80" stroke="#ff9a56" stroke-width="15" fill="none" stroke-linecap="round" />
+</svg>
